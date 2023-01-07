@@ -1,0 +1,46 @@
+.goal {
+  height: 750px;
+
+  text-align: center;
+
+  .container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+
+    background-image: linear-gradient(to bottom, black 0%, transparent 100%),
+      url(../images/goal-background-min.png);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    @mixin for-pixel-ratio-2() {
+      background-image: linear-gradient(to bottom, black 0%, transparent 100%),
+        url(../images/goal-background@2x-min.jpg);
+    }
+  }
+
+  &_title {
+    max-width: 670px;
+    margin-bottom: 11px;
+
+    .highlighted-word {
+      display: inline-blok;
+      margin-top: -10px;
+    }
+  }
+
+  &_description {
+    max-width: 480px;
+
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.81;
+
+    letter-spacing: 0.075em;
+  }
+}

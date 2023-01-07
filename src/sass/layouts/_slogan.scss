@@ -1,0 +1,28 @@
+.slogan {
+  height: 750px;
+
+  text-align: center;
+
+  &_title {
+    max-width: 937px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    // #TODO
+    // перезагрузить картики заднего фона
+    background-image: url(../images/slogan-background-min.jpg);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    @mixin for-pixel-ratio-2() {
+      background-image: url(../images/slogan-background@2x-min.jpg);
+    }
+  }
+}

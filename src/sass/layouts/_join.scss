@@ -1,0 +1,59 @@
+.join-team {
+  //   .container {
+  //     max-width: 1421px;
+  //   }
+
+  background-color: var(--color-background-main);
+
+  .container {
+    padding: 200px 250px;
+    background-image: url(../images/join-background-min.png);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    @mixin for-pixel-ratio-2() {
+      background-image: url(../images/join-background@2x-min.png);
+    }
+  }
+
+  text-align: center;
+  &_title {
+    margin-bottom: 70px;
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &_item {
+      width: calc((100% - 2 * 25px) / 3);
+
+      margin-bottom: 70px;
+
+      border: 1px solid transparent;
+
+      @include transition-for-1(transform);
+    }
+    &_item:not(:nth-child(3n)) {
+      margin-right: 25px;
+    }
+
+    &_item:hover,
+    &_item:focus {
+      transform: scale(1.1);
+    }
+
+    &_description {
+      margin-top: 70px;
+
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.5;
+      letter-spacing: 0.03em;
+
+      color: var(--color-accent);
+    }
+  }
+}

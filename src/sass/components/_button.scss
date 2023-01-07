@@ -1,0 +1,39 @@
+.button {
+  padding: 22px 50px;
+
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.19;
+
+  cursor: pointer;
+  border: none;
+
+  font-weight: 500;
+
+  @include transition-for-2(color, background-color);
+
+  &--light {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+  }
+
+  &--colorfull {
+    color: var(--color-light);
+    background-color: var(--color-accent);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-accent-second);
+  }
+
+  // &:hover &--light,
+  // &:focus &--light {
+  //   color: var(--color-light);
+  // }
+
+  // &:hover &--colorfull,
+  // &:focus &--colorfull {
+  //   color: var(--color-dark);
+  // }
+}

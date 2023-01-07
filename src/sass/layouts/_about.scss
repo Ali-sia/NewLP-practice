@@ -1,0 +1,22 @@
+.about {
+  padding-top: 92px;
+  padding-bottom: 50px;
+
+  &_title {
+    margin-bottom: 35px;
+
+    font-style: italic;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.135em;
+
+    color: var(--color-accent);
+  }
+
+  &_description {
+    max-width: 916px;
+
+    font-weight: 400;
+  }
+}
