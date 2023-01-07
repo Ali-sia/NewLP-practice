@@ -16,10 +16,10 @@
     align-items: center;
   }
 
-  &_open-slide-menu-btn {
-    width: 24px;
-    height: 24px;
-  }
+  //   &_open-slide-menu-btn {
+  //     width: 24px;
+  //     height: 24px;
+  //   }
 
   &_contact-link {
     padding: 8px 16px;
@@ -29,5 +29,33 @@
 
   .logo-holder {
     margin-left: 16px;
+  }
+}
+
+.header-slide-menu {
+  &_holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: var(--color-text-slide-menu);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  &_item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &_subitem-icon {
+    width: 24px;
+    height: 24px;
   }
 }
