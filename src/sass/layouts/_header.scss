@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-light);
+
+  & .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_holder {
+    display: flex;
+    align-items: center;
+  }
+
+  &_open-slide-menu-btn {
+    width: 24px;
+    height: 24px;
+  }
+
+  &_contact-link {
+    padding: 8px 16px;
+    background-color: var(--color-background-secondary);
+    color: var(--color-text-light);
+  }
+
+  .logo-holder {
+    margin-left: 16px;
+  }
+}

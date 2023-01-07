@@ -9,16 +9,12 @@
 //Azo Sans 300
 
 :root {
-  --color-background-main: #1e1e1e;
-  --color-background-about-game: #232323;
-  --color-background-news: #121212;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #05058c;
 
-  --color-dark: #000000;
-  --color-light: #ffffff;
+  --color-accent: #05058c;
 
-  --color-font-main: #ffffff;
-  --color-font-news: #121212;
-  --color-accent: #f17f1a;
-  --color-accent-second: #cb6b15;
-  --color-notification: #e14134;
+  --color-text-light: #f4f2fa;
+  --color-text-dark-primary: #000033;
+  --color-text-dark-secondary: #4d4d70;
 }

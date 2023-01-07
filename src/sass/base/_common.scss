@@ -1,11 +1,10 @@
 body {
-  // font-family: Work Sans, sans-serif;
-  // font-weight: 300;
-  // font-size: 20px;
-  // line-height: 1.5;
-  // letter-spacing: 0.005em;
-  // background-color: var(--color-background-main);
-  // color: var(--color-font-main);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: var(--color-background-primary);
+  color: var(--color-text-dark-primary);
   position: relative;
 }
 
@@ -52,11 +51,21 @@ img {
   height: auto;
 }
 
-// .container {
-//   max-width: 1920px;
-//   padding: 0 250px;
-//   margin: 0 auto;
-// }
+.container {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 0 16px;
+
+  @media screen and (min-width: 780px) {
+    max-width: 780px;
+    padding: 0 40px;
+  }
+
+  @media screen and (min-width: 1540px) {
+    max-width: 1540px;
+    padding: 0 87px;
+  }
+}
 
 svg {
   width: 15px;
