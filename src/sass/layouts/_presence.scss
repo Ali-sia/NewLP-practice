@@ -1,0 +1,23 @@
+.presence {
+  padding-top: 17px;
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-light);
+  .container {
+    padding: 0;
+  }
+
+  &_img-holder {
+    height: 320px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(
+        180deg,
+        rgba(5, 5, 140, 1) 0%,
+        transparent 10%,
+        transparent 90%,
+        rgba(5, 5, 140, 1) 100%
+      ),
+      url('../images/default.png');
+  }
+}
