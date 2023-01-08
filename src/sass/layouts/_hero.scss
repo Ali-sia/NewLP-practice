@@ -22,13 +22,15 @@
   &_contact-link {
     margin-right: 15px;
   }
-  &_solution-link {
-    display: flex;
-    align-items: center;
 
-    .arrow-right {
-      margin-left: 8px;
-    }
+  &_solution-link {
+    font-weight: 600;
+    //   display: flex;
+    //   align-items: center;
+
+    //   .arrow-right {
+    //     margin-left: 8px;
+    //   }
   }
 
   &_feature-list {
