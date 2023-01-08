@@ -1,0 +1,26 @@
+.trust-company {
+  padding-top: 0;
+
+  &_title {
+    margin-bottom: 16px;
+  }
+  &-logo {
+    img {
+      width: 95px;
+      height: 40px;
+    }
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-item:nth-child(2n-1) {
+    margin-right: 24px;
+  }
+  &-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 16px;
+  }
+}
