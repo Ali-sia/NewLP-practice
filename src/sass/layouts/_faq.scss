@@ -1,0 +1,43 @@
+.faq {
+  padding-top: 0;
+
+  &_title {
+    margin-bottom: 16px;
+  }
+
+  &-item:not(:last-child) {
+    margin-bottom: 26px;
+  }
+
+  &_caption {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .arrow-down {
+    margin-left: 16px;
+  }
+
+  &_question-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px;
+    margin-bottom: 16px;
+
+    background: var(--color-background-question);
+    border-radius: 4px;
+  }
+
+  &-question {
+    font-weight: 700;
+  }
+
+  &-answer {
+    font-size: 14px;
+    line-height: 1.43;
+
+    color: var(--color-text-dark-secondary);
+  }
+}
