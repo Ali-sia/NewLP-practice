@@ -1,0 +1,25 @@
+.description {
+  &_title {
+    margin-bottom: 24px;
+  }
+  &_caption {
+    margin-bottom: 24px;
+    color: var(--color-text-dark-secondary);
+  }
+
+  &_holder {
+    margin-bottom: 24px;
+  }
+
+  .solution-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  &_img-holder {
+    img {
+      height: 318px;
+    }
+  }
+}
