@@ -1,0 +1,38 @@
+.contacts {
+  padding-bottom: 0;
+
+  background-color: var(--color-background-secondary);
+
+  &_title {
+    margin-bottom: 16px;
+    color: var(--color-text-white);
+  }
+
+  &_description {
+    margin-bottom: 24px;
+    text-align: center;
+    color: var(--color-text-white);
+  }
+
+  //   &_link-holder {
+  //     text-align: center;
+  //   }
+  &-holder {
+    text-align: center;
+
+    margin-bottom: 32px;
+  }
+
+  &_contact-link {
+    display: inline-block;
+  }
+
+  &_bgi-holder {
+    height: 240px;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url('../images/default.png');
+  }
+}
