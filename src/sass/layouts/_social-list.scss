@@ -1,0 +1,30 @@
+.social {
+  margin-top: 48px;
+  margin-bottom: 48px;
+
+  text-align: center;
+
+  &_title {
+    margin-bottom: 24px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-item:not(:last-child) {
+    margin-right: 32px;
+  }
+
+  .social-link {
+    outline: 2px solid darkmagenta;
+    //   width: 40px;
+    //   height: 40px;
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
