@@ -1,0 +1,13 @@
+.affiliations {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  &_title {
+    margin-bottom: 24px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: center;
+  }
+}
