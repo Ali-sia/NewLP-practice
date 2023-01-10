@@ -1,0 +1,18 @@
+.awards {
+  &_title {
+    margin-bottom: 24px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &-item {
+    width: calc((100% - 2 * 10px) / 3);
+  }
+  &-item:not(:last-child) {
+    margin-right: 10px;
+  }
+}
