@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 48px;
+  padding-bottom: 60px;
+
+  border-top: 1px solid var(--color-border-footer);
+
+  &_holder {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 24px;
+  }
+
+  &-descripton {
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--color-text-dark-secondary);
+  }
+}
