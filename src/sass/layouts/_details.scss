@@ -1,0 +1,22 @@
+.details {
+  &_title-holder {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &_title {
+    font-weight: 700;
+  }
+
+  &-sublist {
+    margin-bottom: 32px;
+
+    font-size: 12px;
+    line-height: 1.33;
+  }
+
+  &-subitem:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
