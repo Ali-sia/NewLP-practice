@@ -16,11 +16,13 @@
 
   .arrow-down {
     margin-left: 16px;
+
+    // transform: rotate(180deg);
   }
 
   &_question-holder {
     display: flex;
-    justify-content: center;
+
     align-items: center;
 
     padding: 8px;
@@ -28,10 +30,16 @@
 
     background: var(--color-background-question);
     border-radius: 4px;
+
+    cursor: pointer;
   }
 
   &-question {
     font-weight: 700;
+  }
+
+  .toggle {
+    display: none;
   }
 
   &-answer {
