@@ -7,6 +7,10 @@ body {
   background-color: var(--color-background-primary);
   color: var(--color-text-dark-primary);
   position: relative;
+
+  &.block-scroll {
+    overflow: hidden;
+  }
 }
 
 html {
