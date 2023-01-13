@@ -64,3 +64,33 @@
     font-weight: 500;
   }
 }
+
+.feedback {
+  .swiper {
+    min-height: 450px !important;
+  }
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    background-color: var(--color-feedback-swiper-scrollbar-disable);
+  }
+
+  .swiper-scrollbar.swiper-scrollbar-horizontal > .swiper-scrollbar-drag {
+    background-color: var(--color-feedback-swiper-scrollbar-enable);
+  }
+  //active next button color
+  .swiper-button-next:after {
+    color: var(--color-feedback-swiper-button-enable);
+  }
+
+  //active prev button color
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    color: var(--color-feedback-swiper-button-enable);
+  }
+
+  // disable button color
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    color: var(--color-feedback-swiper-button-disable);
+  }
+}
