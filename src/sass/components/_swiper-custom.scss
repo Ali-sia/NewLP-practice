@@ -1,0 +1,53 @@
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: var(--color-swiper-scrollbar-disable);
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal > .swiper-scrollbar-drag {
+  background-color: var(--color-swiper-scrollbar-enable);
+}
+
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  width: 70% !important;
+  bottom: 10px !important;
+  left: 15% !important;
+}
+
+//active next button color
+.swiper-button-next:after {
+  color: var(--color-swiper-button-enable);
+}
+
+//active prev button color
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: var(--color-swiper-button-enable);
+}
+
+// disable button color
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  color: var(--color-swiper-button-disable);
+}
+
+//position prev and next buttons
+.swiper-button-next,
+.swiper-button-prev {
+  top: 98% !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 0 !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 0 !important;
+}
