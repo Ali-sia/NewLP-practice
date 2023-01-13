@@ -26,12 +26,18 @@
 
   &_solution-link {
     font-weight: 600;
-    //   display: flex;
-    //   align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
 
-    //   .arrow-right {
-    //     margin-left: 8px;
-    //   }
+    @include transition-for-1(border-color);
+
+    &:hover,
+    &:focus {
+      border-color: var(--color-text-white);
+      color: var(--color-text-white);
+    }
   }
 
   &_feature-list {
